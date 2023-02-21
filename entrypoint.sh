@@ -2,10 +2,10 @@
 
 # 设置各变量
 WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
-NEZHA_SERVER=${NEZHA_SERVER}
-NEZHA_PORT=${NEZHA_PORT}
-NEZHA_KEY=${NEZHA_KEY}
+UUID=${UUID:-'de4e714d-91a4-4cf8-afe0-1444629cf989'}
+# NEZHA_SERVER=${NEZHA_SERVER}
+# NEZHA_PORT=${NEZHA_PORT}
+# NEZHA_KEY=${NEZHA_KEY}
 
 generate_config() {
   cat > config.json << EOF
